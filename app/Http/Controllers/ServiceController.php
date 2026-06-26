@@ -4,18 +4,21 @@ namespace App\Http\Controllers;
 
 use App\Models\CorporateService;
 use App\Models\DisputeService;
-use Illuminate\Http\Request;
 
 class ServiceController extends Controller
 {
     //
-    public function indexCorporate() {
+    public function indexCorporate()
+    {
         $corporates = CorporateService::all();
+
         return view('pages.service-corporate', compact('corporates'));
     }
 
-    public function indexDispute() {
+    public function indexDispute()
+    {
         $disputes = DisputeService::all();
-        return view('pages.service-dispute',  compact('disputes'));
+
+        return view('pages.service-dispute', compact('disputes'));
     }
 }

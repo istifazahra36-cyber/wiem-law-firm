@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -19,7 +18,7 @@ class ArticleSeeder extends Seeder
                 'name' => 'STRATEGIC CORPORATE COMMERCIAL GUIDE INDONESIA 2026',
                 'tag' => 'service',
                 'image' => 'images/articles/corporate-commercial-guide.jpg',
-                'description' => "The corporate landscape in Indonesia has reached a state of unprecedented maturity and complexity in the year two thousand twenty six. As South East Asia continues to serve as a massive engine for global economic growth, Indonesia stands at the very center of this regional boom. The government has aggressively pushed for regulatory modernization to attract foreign direct investment and stimulate domestic corporate expansion. However, this rapid modernization brings a dual edged reality for business owners and investors. On one side, there are massive opportunities in sectors ranging from renewable energy infrastructure to advanced digital commerce. On the other side, the legal framework governing these corporate actions has become incredibly detailed, requiring an exceptional level of precision in legal compliance.
+                'description' => 'The corporate landscape in Indonesia has reached a state of unprecedented maturity and complexity in the year two thousand twenty six. As South East Asia continues to serve as a massive engine for global economic growth, Indonesia stands at the very center of this regional boom. The government has aggressively pushed for regulatory modernization to attract foreign direct investment and stimulate domestic corporate expansion. However, this rapid modernization brings a dual edged reality for business owners and investors. On one side, there are massive opportunities in sectors ranging from renewable energy infrastructure to advanced digital commerce. On the other side, the legal framework governing these corporate actions has become incredibly detailed, requiring an exceptional level of precision in legal compliance.
 
                 For multinational corporations, private equity firms, and ambitious local enterprises, executing commercial transactions or restructuring business entities is no longer a simple administrative task. It requires a profound understanding of the Indonesian Company Law, the dynamically shifting investment lists, and the intricate web of sectoral regulations. This comprehensive guide explores the critical strategies and compliance mandates necessary for successfully managing corporate investments, commercial contracts, and business restructuring in the modern Indonesian market.
 
@@ -67,7 +66,7 @@ class ArticleSeeder extends Seeder
                 Beyond massive acquisitions, the day to day survival of any corporation depends on the strength of its commercial contracts.
 
                 Conclusion
-                The modern business environment in Indonesia offers incredible rewards for those who can navigate its complexities with strategic precision.",
+                The modern business environment in Indonesia offers incredible rewards for those who can navigate its complexities with strategic precision.',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
@@ -183,9 +182,9 @@ class ArticleSeeder extends Seeder
                     For business enterprises striving to maintain sustainable growth and operational security in this tightly regulated digital environment, securing experienced legal counsel is no longer a luxury but an absolute strategic imperative. The dedicated corporate legal team at Wiemlaw possesses the specialized local expertise and technical legal acumen required to guide your business safely through every single facet of Indonesian data privacy regulations. From conducting comprehensive compliance audits and drafting legally sound privacy policies to managing crisis responses during security breach incidents, Wiemlaw provides the robust legal protection and strategic clarity your enterprise urgently needs to build a trustworthy and legally compliant digital foundation.
 
                     ',
-                    'created_at' => now(),
-                    'updated_at' => now(),
-            ]
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
         ]);
     }
 }
